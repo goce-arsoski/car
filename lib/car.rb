@@ -13,5 +13,10 @@ module Car
       @model = model
       @car_speed = 0
     end
+
+    def speed_up(speed)
+      @car_speed += speed
+    end
+
   end
 end
